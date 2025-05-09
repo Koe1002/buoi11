@@ -1,0 +1,171 @@
+<!-- File: chitiet.html -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chi tiết sản phẩm - Sinh nhật 4</title>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/6.4.0/css/all.min.css">
+    <link href="font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="CSS/fontawesome.min.css" rel="stylesheet" />
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/all.min.css" rel="stylesheet" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            margin: 10px;
+        }
+        footer{
+            text-align: center;
+            background: #98CB00;
+            color: white;
+            padding: 10px
+        }
+        img{
+            margin: 20px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+           
+        }
+        .card{
+            padding: 0 100px;
+            
+        }
+        .card-body ul{
+            list-style: none;
+            line-height: 2rem;
+            padding: 0;
+        }
+        .card-body>form>label,input,textarea{
+            width: 100%;
+            padding: 5px;
+            
+        }
+        .card-body>form>label{
+            margin-top: 20px;
+        }
+        #details>ul{
+            list-style: none;
+            padding: 0;
+        }
+        .order{
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .tab-content h3{
+            font-weight: bold;
+        }
+        #thanhtoan ul{
+            
+            padding: 20px;
+        }
+        #thanhtoan ul li{
+           padding: 5px;
+            
+        }
+    </style>
+</head>
+
+<header>
+    <!-- Header -->
+    <div class="header container-fluid">
+       <div class="row">
+           <div class="col">
+               <h2>
+                   <span class="text-success">Dienhoa</span><span class="text-primary">24gio.com</span>
+               </h2>
+               <p>Điện hoa toàn quốc</p>
+           </div>
+           <div class="col text-end">
+               Điện thoại: 024.73007008 - 093.4647.172 <br />
+               Địa chỉ: 140 Lê Trọng Tấn <br />
+               Email: <a href="#">hoa@dienhoa24gio.com</a>
+           </div>
+       </div>
+   </div>
+</header>
+<!-- Body -->
+<body>
+    <div class="card mb-3" style="max-width: 100%;">
+        <div class="row">
+          <div class="col-md-6 card-img-left">            
+            <img src="Image/hoa4.jpg" class="rounded-start" alt="Sinh nhật 4">           
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+                <h4 class="card-title">Bó hoa Sinh nhật thật đẹp</h4>
+                <h4 class="card-text"><strong class="text-danger">Giá: 350.000đ</strong></h4>
+                <p class="card-text">
+                    Bó hoa tươi rực rỡ với sự kết hợp của các loại hoa cao cấp: hoa hồng đỏ Ecudor, 
+                    caảm chướng trắng và baby nhập khẩu. Mỗi bó hoa được thiết kế bởi đội ngũ chuyên 
+                    nghiệp, mang lại cảm giác sang trọng, tinh tế và thể hiện trọn vẹn thông điệp yêu thương.
+                </p>
+                <ul>
+                    <li><i class="bi bi-truck"></i> Giao hàng toàn quốc</li>
+                    <li><i class="bi bi-clock"></i> Giao hàng trong 2 giờ</li>
+                    <li><i class="bi bi-patch-check-fill text-success"></i> Hoa tươi 100% - Cam kết hoàn tiền nếu không hài lòng</li>
+                </ul>
+                <form action="">
+                    <label for="number">Số lượng</label>
+                    <input type="number">
+                    <label for="">Lịch giao hoa</label>
+                    <input type="date">
+                    <label for="" >Lời nhắn (nếu có)</label>
+                    <textarea name="message" id="message" placeholder="Chúc mừng sinh nhật..."></textarea>
+                </form>
+                <a href="giohang.html" class="btn btn-success order"><i class="bi bi-cart-fill"></i> Đặt hàng ngay</a>
+            </div>
+          </div>
+        </div>
+        <!-- Nav tab -->
+            <div class="container mt-3">    
+            <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#details">Thông tin chi tiết</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#thanhtoan">Hướng dẫn thanh toán</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="details" class="container tab-pane active"><br>
+                    <h3>Chi tiết sản phẩm</h3>
+                    <ul>
+                        <li><i class="bi bi-check-lg text-success"></i> Hoa hồng nhập khẩu từ Ecudor, cánh to và bền màu.</li>
+                        <li><i class="bi bi-check-lg text-success"></i> Thiết kế bởi nghệ nhân giàu kinh nghiệm.</li>
+                        <li><i class="bi bi-check-lg text-success"> </i> Bó hoa được bọc bằng giấy Hàn cao cấp, phối nơ lụa sang trọng</li>
+                        <li><i class="bi bi-check-lg text-success"></i> Kèm thiệp chúc mừng viết tay (nếu có yêu cầu).</li>
+                    </ul>
+                    <p>Thích hợp làm quà tặng sinh nhật, lễ tình nhân, kỷ niệm hoặc gửi lời chúc đặc biệt.</p>
+                    </div>
+                    <div id="thanhtoan" class="container tab-pane fade"><br>
+                    <h3>Hướng dẫn thanh toán</h3>
+                    <ul>
+                        <li><i class="bi bi-credit-card-fill text-warning"></i> Chuyển khoản ngân hàng (thông tin sẽ hiển thị sau khi đặt hàng).</li>
+                        <li><i class="bi bi-cash text-success"></i> Thanh toán tiền mặt khi nhận hàng (COD).</li>
+                        <li><i class="bi bi-phone-fill text-info"></i> Thanh toán qua ví Momo, ZaloPay (liên hệ hỗ trợ).</li>
+                    </ul>
+                    <p>Sau khi đặt hàng, nhân viên sẽ gọi xác nhận và hướng dẫn chi tiết cách thanh toán phù hợp nhất.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- js  -->
+    <script src="JS/fontawesome.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/all.min.js"></script>
+</body>
+<footer>
+    <span>Liên hệ Khoa Công nghệ Thông tin - Trường ĐH Công Thương TP.HCM</span> <br>
+    <span>Địa chỉ: 140 Lê Trọng Tấn | ĐT: 028.38167851 | Email: khoacntt@huit.edu.vn</span>
+</footer>
+</html>
